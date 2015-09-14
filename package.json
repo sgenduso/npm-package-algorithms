@@ -1,0 +1,27 @@
+{
+  "name": "rafiki",
+  "version": "1.0.0",
+  "description": "library of js helper functions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgenduso/npm-package-algorithms.git"
+  },
+  "keywords": [
+    "algorithm",
+    "function"
+  ],
+  "contributors": [
+    "Sam Genduso <sam.genduso@gmail.com>",
+    "Amanda Carlton <acarlton27@gmail.com>",
+    "Nick Mattei <nmattei89@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgenduso/npm-package-algorithms/issues"
+  },
+  "homepage": "https://github.com/sgenduso/npm-package-algorithms#readme"
+}
