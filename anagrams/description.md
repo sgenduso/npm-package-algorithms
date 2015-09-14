@@ -1,4 +1,4 @@
-Write a function that detects anagrams.
+This function detects anagrams.
 
 IT:
   * takes two arguments: a word and an array of words

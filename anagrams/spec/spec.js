@@ -1,4 +1,4 @@
-var myCode = require('../solution.js');
+var myCode = require('../function.js');
 
 describe('anagram', function() {
 
@@ -12,13 +12,15 @@ describe('anagram', function() {
     var word4 = 'hello';
     var search4 = 'Hello';
 
-    expect(myCode.anagram(word1, array1)).toEqual([ 'stream', 'maters' ]);
+    expect(myCode.sortWord(word4)).toEqual('ehllo');
 
-    expect(myCode.anagram(word2, array2)).toEqual([ 'Carthorse' ]);
+    expect(myCode.findAnagrams(word1, array1)).toEqual([ 'stream', 'maters' ]);
 
-    expect(myCode.anagram(word3, search3)).toEqual([ 'nagaram' ]);
+    expect(myCode.findAnagrams(word2, array2)).toEqual([ 'Carthorse' ]);
 
-    expect(myCode.anagram(word4, search4)).toEqual([]);
+    expect(myCode.findAnagrams(word3, search3)).toEqual([ 'nagaram' ]);
+
+    expect(myCode.findAnagrams(word4, search4)).toEqual([]);
   });
 
 });

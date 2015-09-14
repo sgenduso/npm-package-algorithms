@@ -1,3 +1,4 @@
 module.exports = {
-  findAnagrams: require('anagrams/solution.js')
+  findAnagrams: require('./anagrams/function.findAnagrams.js'),
+  sortWord: require('./anagrams/function.sortWord.js'),
 };

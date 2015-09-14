@@ -1,4 +1,4 @@
-function anagram(word, arrayOrWord) {
+function findAnagrams(word, arrayOrWord) {
   return (typeof(arrayOrWord) === 'object') ? arrayFn(word, arrayOrWord) : stringFn(word, arrayOrWord);
 }
 
@@ -17,5 +17,6 @@ function sortWord(word) {
 }
 
 module.exports = {
-  anagram: anagram
+  findAnagrams: findAnagrams,
+  sortWord: sortWord
 };
