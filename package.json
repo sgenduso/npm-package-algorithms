@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/sgenduso/npm-package-algorithms/issues"
   },
-  "homepage": "https://github.com/sgenduso/npm-package-algorithms#readme"
+  "homepage": "https://github.com/sgenduso/npm-package-algorithms#readme",
+  "devDependencies": {
+    "gulp-jasmine": "^2.0.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0"
+  }
 }
