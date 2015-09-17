@@ -1,10 +1,8 @@
-var concat = require('gulp-concat')
 var gulp = require('gulp');
 var jasmine = require('gulp-jasmine');
 
 
-
-gulp.task('default', ['factorial', 'anagrams', 'isPrime','romans','pangram'])
+gulp.task('default', ['factorial', 'anagrams', 'isPrime','romans','pangram','watchout'])
 
 gulp.task('factorial', function () {
     return gulp.src('factorial/spec/spec.js')
@@ -30,9 +28,10 @@ gulp.task('pangram', function () {
 gulp.task('ci', ['default']);
 
 
-//
-// gulp.task('watchout', function () {
-//   gulp.watch('js/*js', ['scripts'])
-//   gulp.watch('app.css', ['styles'])
-//   gulp.watch('index.html', ['html'])
-// })
+gulp.task('watchout', function () {
+  gulp.watch('factorial/spec/spec.js', ['factorial'])
+  gulp.watch('anagrams/spec/spec.js', ['anagrams'])
+  gulp.watch('isPrime/spec/spec.js', ['isPrime'])
+  gulp.watch('romans/spec/spec.js', ['romans'])
+  gulp.watch('pangram/spec/spec.js', ['pangram'])
+})
