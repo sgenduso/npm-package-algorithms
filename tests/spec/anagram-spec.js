@@ -1,4 +1,4 @@
-var myCode = require('../function.js');
+var myCode = require('../../anagrams/function.js');
 
 describe('anagram', function() {
 

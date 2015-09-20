@@ -1,4 +1,4 @@
-var myCode = require('../function.js');
+var myCode = require('../../roman-numerals/function.js');
 
 describe('romanNumeral', function() {
   it('takes a string of Roman Numerials and returns the decimal value', function() {
