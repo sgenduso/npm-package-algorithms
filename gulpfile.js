@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var jasmine = require('gulp-jasmine');
 
 
-gulp.task('default', ['factorial', 'anagrams', 'isPrime','romans','pangram','watchout'])
+gulp.task('default', ['factorial', 'anagrams', 'isPrime','romans','pangram','sumMatrices','watchout'])
 
 gulp.task('factorial', function () {
     return gulp.src('factorial/spec/spec.js')
@@ -22,6 +22,10 @@ gulp.task('romans', function () {
 });
 gulp.task('pangram', function () {
     return gulp.src('pangram/spec/spec.js')
+        .pipe(jasmine());
+});
+gulp.task('sumMatrices', function () {
+    return gulp.src('sumMatrices/spec/spec.js')
         .pipe(jasmine());
 });
 
