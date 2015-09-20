@@ -1,4 +1,4 @@
-![alt text](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)
+![alt text](https://travis-ci.org/sgenduso/npm-package-algorithms.svg?branch=master)
 
 # rafiki
 
