@@ -1,11 +1,15 @@
 module.exports = {
   randBetween: function (min, max, exclusive, allowDecimals, decimalPlaces) {
-    areEqual(min,max);
+    if (min === max) {
+      return "There is no number between " + min + " and " + max + ".";
+    }
     if (exclusive) {
       if (allowDecimals) {
         return getRandWithDecExclusive(min, max, decimalPlaces);
       } else {
-        diffOfOne();
+        if (max - min === 1) {
+          return "There is no number between " + min + " and " + max + ", excluding "  + min + " and " + max + " themselves.";
+        }
         return getRandomIntExclusive(min, max);
       }
     } else {
@@ -15,19 +19,6 @@ module.exports = {
         return getRandomIntInclusive(min, max);
       }
     }
-  }
-};
-
-
-areEqual = function (min, max) {
-  if (min === max) {
-    return "There is no number between " + min + " and " + max + ".";
-  }
-};
-
-diffOfOne = function (min, max) {
-  if (max - min === 1) {
-    return "There is no number between " + min + " and " + max + ", excluding "  + min + " and " + max + " themselves.";
   }
 };
 

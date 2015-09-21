@@ -1,7 +1,7 @@
 var myCode = require('../../randomize/function.js');
 
 describe('randBetween', function() {
-  xit('returns a random number between a specified min and max, defaulting to include max and min', function() {
+  it('returns a random number between a specified min and max, defaulting to include max and min', function() {
   var min1 = 1;
   var max1 = 10;
   var rand1 = myCode.randBetween(min1, max1);
@@ -15,7 +15,7 @@ describe('randBetween', function() {
     expect(rand2 >= min2 && rand2 <= max2).toBeTruthy();
   });
 
-  xit('returns an error if there is no number between the min and max', function () {
+  it('returns an error if there is no number between the min and max', function () {
     var min = 1;
     var max = 1;
     var rand = myCode.randBetween(min, max);
@@ -23,7 +23,7 @@ describe('randBetween', function() {
     expect(rand).toEqual("There is no number between 1 and 1.");
   });
 
-  xit('returns an error if trying to find an integer between min and max (exclusive) when (max - min === 1)', function () {
+  it('returns an error if trying to find an integer between min and max (exclusive) when (max - min === 1)', function () {
     var min = 1;
     var max = 2;
     var rand = myCode.randBetween(min, max, true);
