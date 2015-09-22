@@ -10,7 +10,6 @@ gulp.task('UnitTests', function () {
 
 gulp.task('ci', ['default']);
 
-
 gulp.task('watchout', function () {
   gulp.watch('tests/spec/*spec.js', ['UnitTests'])
 })
