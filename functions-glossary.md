@@ -3,3 +3,5 @@ Below is a description of the algorithms found in this library:
 ``` findAnagrams```: searches a string against another string or array of strings and returns an array of those that are anagrams.
 
 ```sortWord```: takes a string and returns the string sorted alphabetically.
+
+```romanNumeral```: takes a string of Roman Numerals and returns the decimal value.
