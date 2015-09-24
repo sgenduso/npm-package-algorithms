@@ -1,4 +1,4 @@
-var myCode = require('../function.js');
+var myCode = require('../../factorial/function.js');
 
 describe('factorial', function() {
   it('takes an integer and returns its factorial product', function() {
