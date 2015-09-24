@@ -8,11 +8,13 @@ Below is a description of the algorithms found in this library:
 
 ```gigasecond```: takes a date and returns a date a gigasecond in the future (11,574 days).
 
-```isPrime```: takes an integer and returns a boolean of whether it is prime.
+```isAnagram```: takes 2 words and returns a boolean of whether they are anagrams of each other (contain exactly the same letters but are not the same word)
 
 ```isPalindrome```: takes a string and returns a boolean of whether it is a palindrome.
 
 ```isPangram```: takes a string and returns a boolean of whether it is a pangram (whether it contains every letter of the alphabet).
+
+```isPrime```: takes an integer and returns a boolean of whether it is prime.
 
 ```randBetween```: generates a random number between a given minimum and maximum, with options to specify exclusivity and whether to allow decimal values.
 
