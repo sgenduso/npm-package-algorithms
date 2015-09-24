@@ -6,6 +6,8 @@ Below is a description of the algorithms found in this library:
 
 ```findCount```: takes 2 strings and returns the number of times the first appears in the second.
 
+```gigasecond```: takes a date and returns a date a gigasecond in the future (11,574 days).
+
 ```isPrime```: takes an integer and returns a boolean of whether it is prime.
 
 ```isPalindrome```: takes a string and returns a boolean of whether it is a palindrome.
