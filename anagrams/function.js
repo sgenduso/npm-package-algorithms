@@ -16,7 +16,12 @@ function sortWord(word) {
   return word.toLowerCase().split('').sort().join('');
 }
 
+function isAnagram(word1, word2){
+  return sortWord(word1) === sortWord(word2) && word1.toLowerCase() !== word2.toLowerCase();
+}
+
 module.exports = {
   findAnagrams: findAnagrams,
-  sortWord: sortWord
+  sortWord: sortWord,
+  isAnagram: isAnagram
 };
