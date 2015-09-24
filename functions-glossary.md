@@ -6,6 +6,8 @@ Below is a description of the algorithms found in this library:
 
 ```findCount```: takes 2 strings and returns the number of times the first appears in the second.
 
+```gigasecond```: takes a date and returns a date a gigasecond in the future (11,574 days).
+
 ```isPrime```: takes an integer and returns a boolean of whether it is prime.
 
 ```isPalindrome```: takes a string and returns a boolean of whether it is a palindrome.
@@ -20,6 +22,9 @@ Below is a description of the algorithms found in this library:
 
 ```sortWord```: takes a string and returns the string sorted alphabetically.
 
+
 ```sumMatrices```: takes 2 matrices of integers and returns a matrix of the sum of integers at respective indeces.
 
 ```transpose```: transposes columns in a given array of arrays.
+
+ ```wordCount```: takes a string and returns an object where the key is the word and the value is the amount of times that word appears in the string.
