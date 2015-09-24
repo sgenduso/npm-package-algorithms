@@ -4,7 +4,7 @@ var transpose = function(input){
         return input[j][i];
       });
   });
-}
+};
 
 
 
@@ -12,6 +12,6 @@ var transpose = function(input){
     transpose: transpose
   };
 
-};
+
 
 //Should this go with the matrices functions?
