@@ -13,3 +13,7 @@ describe('isPrime', function() {
     expect(myCode.isPrime(4.0)).toEqual(false);
   });
 });
+
+//What about 2?
+//Why is 1 false?
+//4.0 == 4 so should be prime?
