@@ -1,4 +1,4 @@
-var wordCount = require('../function.js');
+var myCode = require('../../word-count/function.js');
 
 describe('wordCount', function() {
   it('counts one word', function() {
