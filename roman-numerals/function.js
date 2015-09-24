@@ -9,19 +9,19 @@ var romans = {
   'I': 1
 };
 
- function romanNumeral(incoming){
+ function romanToArabic(incoming){
     if(incoming.length === 0){
       return 0;
     }else{
       if(romans[incoming[1]]>romans[incoming[0]]){
-      return (romans[incoming[1]] - romans[incoming[0]]) + romanNumeral(incoming.substring(2));
+      return (romans[incoming[1]] - romans[incoming[0]]) + romanToArabic(incoming.substring(2));
     }else{
-      return romans[incoming[0]] + romanNumeral(incoming.substring(1));
+      return romans[incoming[0]] + romanToArabic(incoming.substring(1));
     }
 
     }
  }
 
 module.exports = {
-  romanNumeral: romanNumeral
+  romanToArabic: romanToArabic
 };
