@@ -8,8 +8,7 @@ var queryParser = function (input) {
   for (var i = 0; i < input.length; i++) {
      input[i] = input[i].split("=");
     parsed[input[i][0]] = input[i][1];
-  } console.log(parsed);
-  return parsed;
+  } return parsed;
 }
 };
 module.exports = {
