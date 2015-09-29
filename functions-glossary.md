@@ -16,6 +16,8 @@ Below is a description of the algorithms found in this library:
 
 ```isPrime```: takes an integer and returns a boolean of whether it is prime.
 
+```queryParser ```: takes in a query string returns an object where the key is item before the equals and the value is the item after.
+
 ```randBetween```: generates a random number between a given minimum and maximum, with options to specify exclusivity and whether to allow decimal values.
 
 ```romanToArabic```: takes a roman numeral string and returns the equivalent value as an arabic number.

@@ -6,7 +6,9 @@ module.exports = {
       });
     });
     return a;
-  }
+  },
+
+
 };
 
 //Refactor: return a new matrix, don't manipulate parameters. Add more functions (Mandy?).
