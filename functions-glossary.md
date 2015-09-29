@@ -26,7 +26,6 @@ Below is a description of the algorithms found in this library:
 
 ```sortWord```: takes a string and returns the string sorted alphabetically.
 
-
 ```sumMatrices```: takes 2 matrices of integers and returns a matrix of the sum of integers at respective indeces.
 
 ```transpose```: transposes columns in a given array of arrays.
