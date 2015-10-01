@@ -1,4 +1,4 @@
-var myCode = require('../../search-and-match/function.js');
+var myCode = require('../../algorithms/search-and-match/function.js');
 
 describe('findCount', function() {
 

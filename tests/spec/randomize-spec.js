@@ -1,4 +1,4 @@
-var myCode = require('../../randomize/function.js');
+var myCode = require('../../algorithms/randomize/function.js');
 
 describe('randBetween', function() {
   it('returns a random number between a specified min and max, defaulting to include max and min', function() {

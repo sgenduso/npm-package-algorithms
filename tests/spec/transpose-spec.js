@@ -1,4 +1,4 @@
-var myCode = require('../../transpose/function.js');
+var myCode = require('../../algorithms/transpose/function.js');
 
 describe('transpose', function() {
   it('takes an array of array and transposes them (90 degree rotation)', function() {

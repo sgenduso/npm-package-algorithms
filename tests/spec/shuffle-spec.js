@@ -1,5 +1,5 @@
-var myCode = require('../../shuffle/function.js');
-var isAnagram = require('../../anagrams/function.js'
+var myCode = require('../../algorithms/shuffle/function.js');
+var isAnagram = require('../../algorithms/anagrams/function.js'
 ).isAnagram;
 
 describe('shuffle', function() {

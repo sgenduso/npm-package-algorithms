@@ -1,7 +1,7 @@
-var myCode = require('../../password-generator/function.js');
+var myCode = require('../../algorithms/password-generator/function.js');
 describe('generatePassword', function() {
   it('generates a strong password based on a string input by the user', function() {
-    
+
     var chars = ['~', '!', '@', '#', '$', '%', '^', '&', '*', '?'];
     var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     var input1='When it\'s game time it\'s pain time baby';

@@ -1,4 +1,4 @@
-var myCode = require('../../roman-numerals/function.js');
+var myCode = require('../../algorithms/roman-numerals/function.js');
 
 describe('romanToArabic', function() {
   it('takes a string of Roman Numerials and returns the decimal value', function() {

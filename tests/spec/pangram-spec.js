@@ -1,4 +1,4 @@
-var myCode = require('../../pangram/function.js');
+var myCode = require('../../algorithms/pangram/function.js');
 describe('isPangram', function() {
   it('it checks if a string is a pangram', function() {
     var pan1='Cwm fjord veg balks nth pyx quiz.';

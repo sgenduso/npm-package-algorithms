@@ -1,4 +1,4 @@
-var myCode = require('../../matrices/function.js');
+var myCode = require('../../algorithms/matrices/function.js');
 
 describe('sumMatrices', function() {
   it('takes two matrices and returns their sum in another matrix', function() {

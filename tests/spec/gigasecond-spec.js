@@ -1,4 +1,4 @@
-var Gigasecond = require('../../gigasecond/function.js');
+var Gigasecond = require('../../algorithms/gigasecond/function.js');
 
 describe("Gigasecond", function() {
 

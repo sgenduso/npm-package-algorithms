@@ -1,4 +1,4 @@
-var myCode = require('../../prime-numbers/function.js');
+var myCode = require('../../algorithms/prime-numbers/function.js');
 
 describe('isPrime', function() {
   it('checks if a number is prime', function() {

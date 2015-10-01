@@ -1,4 +1,4 @@
-var parseQueryString = require('../../query-parser/function.js').queryParser;
+var parseQueryString = require('../../algorithms/query-parser/function.js').queryParser;
 
 describe('parseQueryString', function () {
   it('turns a querystring into an object', function () {
