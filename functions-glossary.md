@@ -8,6 +8,8 @@ Below is a description of the algorithms found in this library:
 
 ```gigasecond```: takes a date and returns a date a gigasecond in the future (11,574 days).
 
+```generatePassword```: takes a string (expects a sentence) and returns a strong password which combines the input with special characters and numbers.
+
 ```isAnagram```: takes 2 words and returns a boolean of whether they are anagrams of each other (contain exactly the same letters but are not the same word)
 
 ```isPalindrome```: takes a string and returns a boolean of whether it is a palindrome.
