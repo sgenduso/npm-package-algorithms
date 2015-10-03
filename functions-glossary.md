@@ -26,6 +26,8 @@ Below is a description of the algorithms found in this library:
 
 ```search```: takes a string and an array (or another string) and returns an array of all values that contain the string. Includes options for fuzzy matching.
 
+```shuffle```: takes a string and returns a string of the same letters shuffled around.
+
 ```sortWord```: takes a string and returns the string sorted alphabetically.
 
 ```sumMatrices```: takes 2 matrices of integers and returns a matrix of the sum of integers at respective indeces.
