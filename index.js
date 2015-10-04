@@ -1,5 +1,6 @@
 module.exports = {
   factorial: require('./algorithms/factorial/function').factorial,
+  filterType: require('./algorithms/filters/function').filterType,
   findAnagrams: require('./algorithms/anagrams/function').findAnagrams,
   findCount: require('./algorithms/search-and-match/function').findCount,
   gigasecond: require('./algorithms/gigasecond/function').gigasecond,
@@ -8,6 +9,7 @@ module.exports = {
   isPalindrome: require('./algorithms/palindrome/function').isPalindrome,
   isPangram: require('./algorithms/pangram/function').isPangram,
   isPrime: require('./algorithms/prime-numbers/function').isPrime,
+  isSquare: require('./algorithms/square-numbers/function').isSquare,
   queryParser: require('./algorithms/query-parser/function').queryParser,
   randBetween: require('./algorithms/randomize/function').randBetween,
   romanToArabic: require('./algorithms/roman-numerals/function').romanToArabic,

@@ -2,6 +2,8 @@ Below is a description of the algorithms found in this library:
 
 ```factorial```: returns the factorial of a given integer.
 
+```filterType```: filters all elements of a specific type out of an array and returns a new array with these elements removed.
+
 ``` findAnagrams```: searches a string against another string or array of strings and returns an array of those that are anagrams.
 
 ```findCount```: takes 2 strings and returns the number of times the first appears in the second.
@@ -17,6 +19,8 @@ Below is a description of the algorithms found in this library:
 ```isPangram```: takes a string and returns a boolean of whether it is a pangram (whether it contains every letter of the alphabet).
 
 ```isPrime```: takes an integer and returns a boolean of whether it is prime.
+
+```isSquare```: takes an integer and returns a boolean of whether it is a perfect square.
 
 ```queryParser ```: takes in a query string returns an object where the key is item before the equals and the value is the item after.
 
