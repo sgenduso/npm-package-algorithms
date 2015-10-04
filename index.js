@@ -10,6 +10,8 @@ module.exports = {
   isPangram: require('./algorithms/pangram/function').isPangram,
   isPrime: require('./algorithms/prime-numbers/function').isPrime,
   isSquare: require('./algorithms/square-numbers/function').isSquare,
+  lp100kmTompg: require('./algorithms/conversion/function').lp100kmTompg,
+  mpgTolp100km: require('./algorithms/conversion/function').mpgTolp100km,
   queryParser: require('./algorithms/query-parser/function').queryParser,
   randBetween: require('./algorithms/randomize/function').randBetween,
   romanToArabic: require('./algorithms/roman-numerals/function').romanToArabic,

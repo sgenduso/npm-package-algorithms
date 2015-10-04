@@ -22,6 +22,10 @@ Below is a description of the algorithms found in this library:
 
 ```isSquare```: takes an integer and returns a boolean of whether it is a perfect square.
 
+```lp100kmTompg```: converts liters/100km to miles/gallon.
+
+```mpgTolp100km```: converts miles/gallon to liters/100km.
+
 ```queryParser ```: takes in a query string returns an object where the key is item before the equals and the value is the item after.
 
 ```randBetween```: generates a random number between a given minimum and maximum, with options to specify exclusivity and whether to allow decimal values.
