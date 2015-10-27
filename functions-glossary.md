@@ -1,5 +1,7 @@
 Below is a description of the algorithms found in this library:
 
+```arrayDifff```: filters all values that appear in one array (b) out of another array (a) and returns  new array with these values removed.
+
 ```factorial```: returns the factorial of a given integer.
 
 ```filterType```: filters all elements of a specific type out of an array and returns a new array with these elements removed.

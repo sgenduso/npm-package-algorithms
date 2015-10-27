@@ -1,4 +1,5 @@
 module.exports = {
+  arrayDiff: require('./algorithms/filters/function').arrayDiff,
   factorial: require('./algorithms/factorial/function').factorial,
   filterType: require('./algorithms/filters/function').filterType,
   findAnagrams: require('./algorithms/anagrams/function').findAnagrams,

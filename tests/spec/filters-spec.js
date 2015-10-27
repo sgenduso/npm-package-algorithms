@@ -13,3 +13,15 @@ describe('filterType', function() {
   });
 
 });
+
+describe('arrayDiff', function() {
+
+  it('filters all elements of one array out of another', function() {
+
+
+    expect(myCode.arrayDiff([1, 2, 2, 3], [2])).toEqual([1,3]);
+
+
+  });
+
+});
