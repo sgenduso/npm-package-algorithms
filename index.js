@@ -1,5 +1,6 @@
 module.exports = {
   arrayDiff: require('./algorithms/filters/function').arrayDiff,
+  calculateHypotenuse: require('./algorithms/hypotenuse/function').calculateHypotenuse,
   factorial: require('./algorithms/factorial/function').factorial,
   filterType: require('./algorithms/filters/function').filterType,
   findAnagrams: require('./algorithms/anagrams/function').findAnagrams,
