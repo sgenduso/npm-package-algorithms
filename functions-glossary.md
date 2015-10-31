@@ -2,6 +2,8 @@ Below is a description of the algorithms found in this library:
 
 ```arrayDifff```: filters all values that appear in one array (b) out of another array (a) and returns  new array with these values removed.
 
+```calculateHypotenuse```: finds the length of the hypotenuse of a triangle given the lengths of the other 2 sides.
+
 ```factorial```: returns the factorial of a given integer.
 
 ```filterType```: filters all elements of a specific type out of an array and returns a new array with these elements removed.
