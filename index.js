@@ -1,6 +1,8 @@
 module.exports = {
   arrayDiff: require('./algorithms/filters/function').arrayDiff,
   calculateHypotenuse: require('./algorithms/hypotenuse/function').calculateHypotenuse,
+  decodeMorse: require('./algorithms/morse-code/function').decodeMorse,
+  encodeTextToMorse: require('./algorithms/morse-code/function').encodeTextToMorse,
   factorial: require('./algorithms/factorial/function').factorial,
   filterType: require('./algorithms/filters/function').filterType,
   findAnagrams: require('./algorithms/anagrams/function').findAnagrams,

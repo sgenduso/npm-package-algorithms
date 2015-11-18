@@ -4,6 +4,10 @@ Below is a description of the algorithms found in this library:
 
 ```calculateHypotenuse```: finds the length of the hypotenuse of a triangle given the lengths of the other 2 sides.
 
+```decodeMorse```: takes a string of morse code and returns plain english.
+
+```encodeTextToMorse```: takes a string of plain english and returns the morse code equivalent.
+
 ```factorial```: returns the factorial of a given integer.
 
 ```filterType```: filters all elements of a specific type out of an array and returns a new array with these elements removed.
