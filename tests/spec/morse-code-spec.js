@@ -10,6 +10,14 @@ describe('decodeMorse', function() {
 
   });
 
+  it('handles incorrect spacing', function() {
+
+
+    expect(myCode.decodeMorse('...    .- --')).toEqual('sam');
+
+
+  });
+
 });
 
 describe('encodeTextToMorse', function() {
@@ -21,5 +29,6 @@ describe('encodeTextToMorse', function() {
 
 
   });
+
 
 });
